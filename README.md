@@ -318,6 +318,40 @@ optimizer : Adam
 - train_loader는 validation dataset으로 구성한다.(파일 크기 때문)
 = validation_loader = None.
 
+```
+# 실행 화면
+Device ：  cuda:0
+-------------
+Epoch 1/5
+-------------
+（train）
+iterations 10 || Loss: 0.0091 || per 10 iter: 42.5833 sec.
+iterations 20 || Loss: 0.0078 || per 10 iter: 54.0288 sec.
+iterations 30 || Loss: 0.0069 || per 10 iter: 32.3135 sec.
+iterations 40 || Loss: 0.0059 || per 10 iter: 20.9394 sec.
+iterations 50 || Loss: 0.0047 || per 10 iter: 20.6751 sec.
+iterations 60 || Loss: 0.0045 || per 10 iter: 21.4848 sec.
+-------------
+epoch 1 || Epoch_train_Loss:0.0069 ||Epoch_val_Loss:0.0000
+timer:  208.4242 sec.
+-------------
+Epoch 2/5
+-------------
+（train）
+iterations 70 || Loss: 0.0036 || per 10 iter: 42.9272 sec.
+iterations 80 || Loss: 0.0033 || per 10 iter: 20.2265 sec.
+iterations 90 || Loss: 0.0026 || per 10 iter: 20.6426 sec.
+iterations 100 || Loss: 0.0026 || per 10 iter: 21.1457 sec.
+iterations 110 || Loss: 0.0022 || per 10 iter: 20.3675 sec.
+iterations 120 || Loss: 0.0020 || per 10 iter: 20.9297 sec.
+-------------
+epoch 2 || Epoch_train_Loss:0.0028 ||Epoch_val_Loss:0.0000
+timer:  162.8061 sec.
+.
+.
+.
+
+```
 
 ### loss function
 
