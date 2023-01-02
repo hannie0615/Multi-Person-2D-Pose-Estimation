@@ -1,0 +1,8 @@
+torch>=1.2.0
+torchvision>=0.4.0
+matplotlib
+scipy
+pycocotools
+yacs
+setuptools==59.5.0
+torchsummary
