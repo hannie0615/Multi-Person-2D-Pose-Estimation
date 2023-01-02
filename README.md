@@ -2,8 +2,8 @@
 
 - 목표: 딥러닝으로 1명 또는 다수의 사람들에 대해 모션을 추론하고 히트맵 matplotlib 으로 표현하기
 - 예시) 
+<img src="https://user-images.githubusercontent.com/50253860/210201553-30daf665-67e9-4e6d-931c-c95ccdef76bd.png" width="450" height="300"/>
 
-<img width="782" alt="Screen-Shot-2019-04-11-at-5 17 56-PM" src="https://user-images.githubusercontent.com/50253860/210201553-30daf665-67e9-4e6d-931c-c95ccdef76bd.png">
 [출처:https://nanonets.com/blog/human-pose-estimation-2d-guide/]
 
 ### 파일 구조
@@ -49,7 +49,7 @@
 **Step 1. Image resize**  
 
 이미지 크기를 줄여줌.  
-<img src="https://user-images.githubusercontent.com/50253860/210203625-f42315f0-f9c9-4f24-8a10-267ed430c300.png" width="580" height="200"/>
+<img src="https://user-images.githubusercontent.com/50253860/210203625-f42315f0-f9c9-4f24-8a10-267ed430c300.png" width="400" height="150"/>
 
 ```
 + PAFs: 부위 간에 연결성을 나타내는 지표. 
@@ -67,7 +67,7 @@ ex) 왼쪽 손목~왼쪽 팔꿈치 사이의 확률 부분을 잇는 선분
 출력 결과에서 각 부위별 좌표, PaFs 정보를 구함.  
 이미지 크기는 원래대로 되돌림.  
 
-<img src="https://user-images.githubusercontent.com/50253860/210204080-f23fcf0b-4846-4d40-8628-f6afe37b633c.png" width="580" height="200"/>
+<img src="https://user-images.githubusercontent.com/50253860/210204080-f23fcf0b-4846-4d40-8628-f6afe37b633c.png" width="400" height="150"/>
 
 
 ------------------
@@ -366,11 +366,9 @@ timer:  162.8061 sec.
 학습된 모델을 읽어(.pth) 화면 속 인물의 자세를 추론.  
 
 - 원본 이미지)  
-![Figure_1](https://user-images.githubusercontent.com/50253860/210199711-8eaffac1-b31f-4a36-b456-aef86f7763ed.png)
-
+<img src="https://user-images.githubusercontent.com/50253860/210199711-8eaffac1-b31f-4a36-b456-aef86f7763ed.png" width="400" height="280"/>
 - pre-trained.pth 적용 후 이미지)  
-![Figure_2](https://user-images.githubusercontent.com/50253860/210199715-bea6321d-eb7b-4ee3-b7fc-8bf01dad30dd.png)
-
+<img src="https://user-images.githubusercontent.com/50253860/210199715-bea6321d-eb7b-4ee3-b7fc-8bf01dad30dd.png" width="400" height="280"/>
 
 -------------------
 
